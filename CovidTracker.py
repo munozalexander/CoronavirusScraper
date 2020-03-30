@@ -10,8 +10,7 @@ class Coronavirus():
     def __init__(self):
         self.driver = webdriver.Chrome()
         self.states = ['Massachusetts', 'Texas', 'New York']
-        #self.emails = ['zor@gorelov.com','irina@gorelov.com','rgorelov@broadinstitute.org','Blake_Smith@hms.harvard.edu','William_Mannherz@hms.harvard.edu','angel@munoz.com','gabrielle@munoz.com','karin@munoz.com','14munoza@gmail.com']
-        self.emails = ['14munoza@gmail.com']
+        self.emails = ['XXX@gmail.com']
 
     def scrapeData(self):
         self.driver.get('https://www.worldometers.info/coronavirus/country/us/')
